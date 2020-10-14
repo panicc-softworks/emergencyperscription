@@ -274,7 +274,7 @@ textarea{
   font-size: 1rem;
   border-radius: 0.75em;
   color: #fff;
-  background-color:#333;
+  background-color:black;
   border:0;
   border-radius: 0;
   padding: 0.7rem 1rem 0.7rem;
@@ -358,7 +358,7 @@ label.error{
   border:0;
   border-radius: 0;
   padding: 1.1em 2.28em 1em;
-  background-color: #000;
+  background-color: #f3ca2f;
   text-decoration: none;
   -webkit-transition: all .3s ease-out!important;
           transition: all .3s ease-out!important;
@@ -366,7 +366,7 @@ label.error{
 
 .btn:hover,
 .btn:focus{
-  background-color:#f3ca2f;
+  background-color:#000;
   color: #fff;
   -webkit-box-shadow:none;
   box-shadow: none;
@@ -1139,7 +1139,7 @@ a.brand:focus{
 }
 
 .vertical-title{
-  display: none!important;
+  /* display: none!important; */
   position: absolute;
   white-space: nowrap;
   width: 0;
@@ -1681,6 +1681,10 @@ a.brand:focus{
   width: 100000px;
   height: 1px;
   background: #fff;
+}
+
+.review-author{
+  margin-top: 5.7rem;
 }
 
 .review-carousel .text{
